@@ -142,9 +142,19 @@ body {
 
 .no-bullets-2 {
     list-style: none;
+    display:flex;
+   gap: 15px;
+
+  
 }
-
-
+.contanier{
+    display: inline-flex;
+}
+.contanier-1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
 
 nav ul li a {
     text-decoration: none;

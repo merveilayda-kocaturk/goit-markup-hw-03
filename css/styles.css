@@ -150,13 +150,20 @@ body {
 
 .no-bullets-2 {
     list-style: none;
-    display:flex;
+    display: flex;
     gap: 15px;
 
   
 }
 .title-3{
-    display: inline-flex;
+    display: flex;
+    margin-left: auto;
+    margin-right: 40px;
+    gap: 20px;
+
+}
+.title-3 a{
+    font-style: normal;
 }
 
 .title-2{
@@ -187,17 +194,12 @@ address a:hover {
     gap: 32px;
 }
 .contanier{
-    width: 100%;
-    max-width: 1158px;
+    max-width: 1440px;
     margin:0 auto;
-    padding:0 15px;
+   
 }
 .brd{
     border: 1px;
-    display: flex;
-  
-    align-items: center;
-    padding: 20px;
 }
 .left-side {
     display: flex;

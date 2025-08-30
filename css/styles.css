@@ -8,6 +8,7 @@ body {
     font-style: Medium;
     color: #434455 line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 120px;
 }
 
 
@@ -38,6 +39,8 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    border: 1px;
+    
 
 }
 
@@ -46,6 +49,7 @@ body {
     width: 1440px;
     height: 600px;
     text-align: center;
+    padding: 120px;
 
 }
 
@@ -62,6 +66,8 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     margin: 0 auto;
+    
+
 }
 
 .back-2 {
@@ -101,10 +107,12 @@ body {
 
 .top-logo .studio {
     color: #2E2F42;
+    
 }
 
 .bottom-logo .studio {
     color: #F4F4FD;
+   
 }
 
 .order-btn {
@@ -143,14 +151,14 @@ body {
 .no-bullets-2 {
     list-style: none;
     display:flex;
-   gap: 15px;
+    gap: 15px;
 
   
 }
-.contanier{
+.title-3{
     display: inline-flex;
 }
-.contanier-1{
+.title-2{
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
@@ -177,3 +185,32 @@ address a:hover {
     display: flex;
     gap: 32px;
 }
+.contanier{
+    width: 100%;
+    max-width: 1158px;
+    margin:0 auto;
+    padding:0 15px;
+}
+.brd{
+    border: 1px;
+    display: flex;
+  
+    align-items: center;
+    padding: 20px;
+}
+.left-side {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.part-1 .part-2{ 
+    padding: 120px;
+}
+
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+

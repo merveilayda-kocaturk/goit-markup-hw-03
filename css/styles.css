@@ -158,6 +158,7 @@ body {
 .title-3{
     display: inline-flex;
 }
+
 .title-2{
     display: flex;
     justify-content: flex-end;
@@ -213,4 +214,8 @@ address a:hover {
   box-sizing: border-box;
 }
 
-
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}

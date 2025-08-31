@@ -1,4 +1,4 @@
-body {
+.body {
   font-family: "Roboto", sans-serif;
 }
 
@@ -47,8 +47,6 @@ body {
 }
 
 .title-1 {
-  width: 496px;
-  height: 120px;
   top: 260px;
   left: 472px;
   text-align: center;
@@ -81,6 +79,7 @@ body {
   width: 1440px;
   height: 312px;
   justify-content: flex-start;
+  margin-top: 120px;
 }
 a p {
   display: flex;
@@ -124,7 +123,6 @@ a p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.044em;
-  cursor: pointer;
 }
 
 .no-bullets {
@@ -208,12 +206,6 @@ address a:hover {
 }
 .part-1 .part-2 {
   padding: 120px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 img {

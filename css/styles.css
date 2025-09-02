@@ -25,6 +25,8 @@
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 72px;
 }
 
 .content-3 {
@@ -36,6 +38,7 @@
   letter-spacing: 0.02em;
   text-align: center;
   border: 1px;
+  
 }
 
 .back-1 {
@@ -67,6 +70,8 @@
 
 .back-3 {
   background-color: #f4f4fd;
+  width: 1440px;
+  height: 732px;
 }
 
 .content-4 {
@@ -106,6 +111,7 @@ a p {
   color: #2e2f42;
 }
 
+
 .bottom-logo .studio {
   color: #f4f4fd;
 }
@@ -139,12 +145,14 @@ a p {
   flex-wrap: wrap;
   gap: 32px;
   justify-content: center;
+ text-align: center;
+ 
 }
 
 .no-bullets-2 {
   list-style: none;
   display: flex;
-  gap: 15px;
+  gap: 40px;
   margin: 0;
   padding: 0;
 }
@@ -194,7 +202,8 @@ address a:hover {
   margin: 0 auto;
 }
 .brd {
-  border: 1px;
+  width: 1440px;
+  border: 1px
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -204,8 +213,17 @@ address a:hover {
   align-items: center;
   gap: 40px;
 }
+.part-1{
+  width: 1440px;
+  height: 732px;
+  
+  
+
+  
+}
 .part-1 .part-2 {
   padding: 120px;
+  
 }
 
 img {

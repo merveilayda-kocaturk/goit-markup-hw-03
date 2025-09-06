@@ -44,7 +44,8 @@
 
 .back-1 {
   background-color: #2e2f42;
-  width: 1440px;
+  width: 1,440px;
+  height: 600px;
   padding: 120px 0;
   text-align: center;
 }
@@ -82,10 +83,9 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   top: 2988px;
-  width: 1440px;
-  height: 312px;
-  justify-content: flex-start;
-  margin-top: 120px;
+ padding: 100px 550px;
+  
+  
 }
 a p {
   display: flex;
@@ -101,7 +101,7 @@ a p {
   line-height: 1.17;
   letter-spacing: 0.03em;
   font-family: "Raleway", sans-serif;
-  margin-left: 100px;
+  padding-left: 100px;
 }
 
 .web {
@@ -138,7 +138,7 @@ a p {
   gap: 32px;
   top: 1248px;
   justify-content: center;
- margin-top: 200px;
+
   text-align: center;
  
 }
@@ -209,7 +209,7 @@ address a:hover {
   gap: 24px;
 }
 .content-5 {
-  margin-left: 100px;
+ text-align: left;
 }
 .contanier {
   max-width: 1440px;
@@ -253,6 +253,9 @@ address a:hover {
 button{
   margin-top: 40px;
 }
-section{
+
   padding: 120px 0;
+.section {
+  padding: 120px;
 }
+
